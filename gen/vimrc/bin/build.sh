@@ -166,6 +166,7 @@ mvim_build_all () {
 
 	# plug
 	mvim_apd_conf_file "PlugEnhance.vim" "$file_path"
+	mvim_apd_conf_file "ConfEnhance.vim" "$file_path"
 
 
 	# pack
