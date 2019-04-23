@@ -12,10 +12,10 @@ function! s:ColorSchemePick () abort
 
 
 	" ## pick colorscheme
-	colorscheme space_vim_theme
+	"colorscheme space_vim_theme
 	"colorscheme monokai
 	"colorscheme gruvbox
-	"colorscheme onedark
+	colorscheme onedark
 
 
 	" ## ubuntu default colorscheme
