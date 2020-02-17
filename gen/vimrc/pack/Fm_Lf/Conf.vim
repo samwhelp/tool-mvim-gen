@@ -1,18 +1,17 @@
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""" Head: ConfFm_Ranger
+""" Head: ConfFm_Lf
 ""
 
-function! s:ConfFm_Ranger () abort
+function! s:ConfFm_Lf () abort
 
-
-	nnoremap <Space>er :Ranger<CR>
-	"nnoremap ,f :Ranger<CR>
+	nnoremap <Space>el :Lf<CR>
+	nnoremap ,f :Lf<CR>
 
 
 endfunction
 
 ""
-""" Tail: ConfFm_Ranger
+""" Tail: ConfFm_Lf
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
