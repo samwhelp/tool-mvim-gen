@@ -14,15 +14,18 @@ function! s:PlugFm_Lf () abort
 	Plug 'ptzz/lf.vim'
 	"Plug 'rbgrouleff/bclose.vim'
 
-	if has('nvim')
-		Plug 'rbgrouleff/bclose.vim'
-		Plug 'voldikss/vim-floaterm'
-	endif
+	"if has('nvim')
+	"	Plug 'rbgrouleff/bclose.vim'
+	"	Plug 'voldikss/vim-floaterm'
+	"endif
+
+	Plug 'rbgrouleff/bclose.vim'
+	Plug 'voldikss/vim-floaterm'
 
 	" Notice
 	" Install lf first
 	" https://github.com/gokcehan/lf/releases
-	
+
 
 	" Or Use
 	" https://github.com/gokcehan/lf/blob/master/etc/lf.vim
